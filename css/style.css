@@ -234,6 +234,33 @@ img {
   font-size: 12px;
 }
 
+/* ページトップ */
+
+#page_top {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+#page_top::after {
+  content: "TOP";
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  color: #3c301e;
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
 /* タブレット・PCサイズの表示 */
 @media screen and (min-width: 768px) {
   body {
