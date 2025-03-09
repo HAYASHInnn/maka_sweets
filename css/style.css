@@ -38,6 +38,25 @@ img {
   color: #ffffff;
 }
 
+/* drawer */
+.drawer {
+  position: absolute;
+  top: 100%;
+  left: 80%;
+  width: 80px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 15px 0 10px;
+  display: none;
+}
+
+.drawer__menu {
+  color: rgba(255, 255, 255, 0.9);
+  display: block;
+  font-size: 13px;
+  padding: 5px;
+  text-align: center;
+}
+
 /* 共通クラス */
 .inner {
   padding: 0 40px;
